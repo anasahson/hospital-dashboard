@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <meta http-equiv="refresh" content="2"> -->
+
+    <title>Patient Data</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ps-3">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                        <li class="nav-item  ms-3 ms-md-0 ">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span><img src="../images/home_FILL0_wght300_GRAD0_opsz24.png" style="margin-top: -3px;" alt="icon"></span> Overview
+                            </a>
+                        </li>
+                        <li class="nav-item active-btn">
+                            <a class="nav-link " href="#">
+                                <span >
+                                    <img src="../images/group_FILL0_wght300_GRAD0_opsz24.png" alt="icon">
+                                </span> Patient
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <span style="margin-top: -3px; padding-left: 19px;">
+                                    <img src="../images/calendar_today_FILL0_wght300_GRAD0_opsz24.png" alt="icon">
+                                </span> Schedule
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                                <span style="margin-top: -3px; padding-left: 19px;">
+                                    <img src="../images/chat_bubble_FILL0_wght300_GRAD0_opsz24.png" alt="icon">
+                                </span> Message
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                                <span style="margin-top: -3px; padding-left: 19px;">
+                                    <img src="../images/credit_card_FILL0_wght300_GRAD0_opsz24.png" alt="icon">
+                                </span> Transaction
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex right-nav">
+                        <div class="nav-right">
+                            <div class="nav-image">
+                                <img src="../images/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png" alt="">
+                            </div>
+                            <div>
+                                <p style="padding-right: 8px; padding-left: 5px;">Dr. Emily Williams<br>General Practitioner</p>
+                            </div>
+                        </div>
+                        <div class="nav-right-line"></div>
+                        <div class="nav-icon ">
+                            <span class="nav-icon1"><img src="../images/settings_FILL0_wght300_GRAD0_opsz24.png" alt=""></span>
+                            <span class="nav-icon2"><img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt=""></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="section-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 ps-4 pe-4 border">
+                    <div class="inner-section1-heading">
+                        <div><h2>Patient</h2></div>
+                        <div class="inner-section1-heading-searchicon">
+                            <img src="../images/search_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                        </div>
+                    </div>
+                    <div class="overflow">
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 8.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Emily Williams</div>
+                                <div class="left-person-bio">Female, 18</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 8.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Emily Williams</div>
+                                <div class="left-person-bio">Female, 18</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div><div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div><div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div><div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div><div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="left--mainsection">
+                            <div><img src="../images/Layer 1.png" alt=""></div>
+                            <div class="left-person-info">
+                                <div class="left-person-name">Ryan Johnson</div>
+                                <div class="left-person-bio">Male, 45</div>
+                            </div>
+                            <div class="left--innersection-dot">
+                                <img src="../images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Add other entries similarly -->
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6 info-panel">
+                    <h2>Diagnosis History</h2>
+                    <div class="panel my-sm-5 my-md-1 ">
+                        <div class="row">
+                            <div class="chart col-lg-9 col-md-12">
+                                <canvas id="bloodPressureChart"></canvas>
+                            </div>
+                            <div class=" col-md-3">
+                                <div>
+                                    <span class="systolic"><span class="dot-1">&#9679;</span> Systolic</span>
+                                    <h4>160</h4>
+                                    <p class="higher">&#9650; Higher than Average</p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <span class="diastolic"><span class="dot-2">&#9679;</span> Diastolic</span>
+                                    <h4>78</h4>
+                                    <p class="lower">&#9660; Lower than Average</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row gap-2">
+                        <div class="col health-stat respiratory">
+                            <img src="../images/temperature.png" alt="Respiratory Rate Icon">
+                            <p>Temperature</p>
+                            <p class="reat" >98.6°F</p>
+                            <p>Normal</p>
+                        </div>
+                        <div class="col health-stat respiratory">
+                            <img src="../images/respiratory rate.png" alt="Respiratory Rate Icon">
+                            <p>Respiratory Rate</p>
+                            <p class="reat" > l20 bpm</p>
+                            <p>Normal</p>
+                        </div><div class="col health-stat respiratory">
+                            <img src="../images/HeartBPM.png" alt="Respiratory Rate Icon">
+                            <p>Heart Rate</p>
+                            <p class="reat">78 bpm</p>
+                            <p class="lower">Lower  Avereage</p>
+                        </div>
+                    </div>
+                    <div id="table">
+                        <div><h3>Diagnostic List</h3></div>
+                    <div class="col-md-12">
+                        <div class="table-wrapper text-center" id="style-1">
+                            <table class="table ">
+                                <thead>
+                                    <tr class=" head-color">
+                                        <th >Problem/Diagnosis</th>
+                                        <th>Description</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Hypertension</td>
+                                        <td>Chronic high blood pressure</td>
+                                        <td>Under Observation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Type 2 Diabetes</td>
+                                        <td>Insulin resistance and elevated blood sugar</td>
+                                        <td>Cured</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Asthma</td>
+                                        <td>Recurrent episodes of bronchial constriction</td>
+                                        <td>Inactive</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Osteoarthritis</td>
+                                        <td>Degenerative joint disease</td>
+                                        <td>Untreated</td>
+                                    </tr>
+                                    <!-- Additional rows to demonstrate scrollbar -->
+                                    <tr>
+                                        <td>Hypertension</td>
+                                        <td>Chronic high blood pressure</td>
+                                        <td>Under Observation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Type 2 Diabetes</td>
+                                        <td>Insulin resistance and elevated blood sugar</td>
+                                        <td>Cured</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Asthma</td>
+                                        <td>Recurrent episodes of bronchial constriction</td>
+                                        <td>Inactive</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Osteoarthritis</td>
+                                        <td>Degenerative joint disease</td>
+                                        <td>Untreated</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/Layer 2@2x.png" alt="Profile Image">
+                        </div>
+                        <div class="profile-name">
+                            <h4>Jessica Taylor</h4>
+                        </div>
+                        <div class="main-info">
+                            <div class="info-item">
+                                <div class="icon">
+                                    <img src="../images/BirthIcon@2x.png" alt="Birth Icon">
+                                </div>
+                                <div class="info-text">
+                                    <p class="info-title">Date Of Birth</p>
+                                    <p class="info-detail">August 23, 1996</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon">
+                                    <img src="../images/FemaleIcon.svg" alt="Gender Icon">
+                                </div>
+                                <div class="info-text">
+                                    <p class="info-title">Gender</p>
+                                    <p class="info-detail">Female</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon">
+                                    <img src="../images/PhoneIcon.png" alt="Phone Icon">
+                                </div>
+                                <div class="info-text">
+                                    <p class="info-title">Contact Info.</p>
+                                    <p class="info-detail">(415) 555-1234</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon">
+                                    <img src="../images/PhoneIcon.png" alt="Phone Icon">
+                                </div>
+                                <div class="info-text">
+                                    <p class="info-title">Emergency Contacts</p>
+                                    <p class="info-detail">(415) 555-5678</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon">
+                                    <img src="../images/InsuranceIcon.png" alt="Insurance Icon">
+                                </div>
+                                <div class="info-text">
+                                    <p class="info-title">Insurance Provider</p>
+                                    <p class="info-detail">Sunrise Health Assurance</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <p>Show All Information</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-sm-4 mt-md-4">
+                        <div class="results-container">
+                            <h4>Lab Results</h4>
+                            <div class="result-item">
+                                <span>Blood Tests</span>
+                                <span class="icon">
+                                    <img src="../images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+                                </span>
+                            </div>
+                            <div class="result-item">
+                                <span>CT Scans</span>
+                                <span class="icon">
+                                    <img src="../images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+                                </span>
+                            </div>
+                            <div class="result-item">
+                                <span>Radiology Reports</span>
+                                <span class="icon">
+                                    <img src="../images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+                                </span>
+                            </div>
+                            <div class="result-item">
+                                <span>X-Rays</span>
+                                <span class="icon">
+                                    <img src="../images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+                                </span>
+                            </div>
+                            <div class="result-item">
+                                <span>Urine Test</span>
+                                <span class="icon">
+                                    <img src="../images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="http://truetechx.blogspot.com">
+        <p >Delveloper with ❤️ BY Anas Ahson </p>
+
+        </a>
+        <p>anasahson@gmail.com</p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
+
+
+    
+    
+    <script>
+        const ctx = document.getElementById('bloodPressureChart').getContext('2d');
+        const bloodPressureChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Oct, 2023', 'Nov, 2023', 'Dec, 2023', 'Jan, 2024', 'Feb, 2024', 'Mar, 2024'],
+                datasets: [
+                    {
+                        label: 'Systolic',
+                        data: [140,150, 160, 130, 145, 150, 160],
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        tension: 0.1,
+                        pointBackgroundColor: 'rgba(255, 99, 132, 1)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgba(255, 99, 132, 1)',
+                    },
+                    {
+                        label: 'Diastolic',
+                        data: [100, 120, 90, 110, 95, 78],
+                        borderColor: 'rgba(138, 43, 226, 1)',
+                        backgroundColor: 'rgba(138, 43, 226, 0.2)',
+                        tension: 0.1,
+                        pointBackgroundColor: 'rgba(138, 43, 226, 1)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgba(138, 43, 226, 1)',
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        suggestedMin: 60,
+                        suggestedMax: 180,
+                        grid: {
+                            display: true, // Hides the grid lines on y-axis
+                            drawBorder: false, // Hides the border line on y-axis
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false, // Hides the grid lines on x-axis
+                            drawBorder: false, // Hides the border line on x-axis
+                        }
+            }}}
+        });
+    </script>
+</body>
+</html>
+
